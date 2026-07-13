@@ -23,3 +23,12 @@
 .access-grid>div{border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);padding:1.4rem}
 .map{border:1px solid var(--line);border-left:3px solid var(--accent)}
 @media (max-width:800px){.member{padding:1rem}.research-prose,.hemt-figure{padding:1.1rem}.access-grid>div{padding:1.1rem}}
+
+
+/* Focus layout adjustments */
+.research-two-col{grid-template-columns:1fr;gap:1rem}
+.research-prose{max-width:none}
+.hemt-figure{width:100%}
+.faculty-grid{grid-template-columns:minmax(0,1fr)}
+.student-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:800px){.faculty-grid,.student-grid{grid-template-columns:1fr}}
