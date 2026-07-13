@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://herc3224eptin-cyber.github.io/sitemap.xml
