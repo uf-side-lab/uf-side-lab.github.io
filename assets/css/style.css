@@ -32,3 +32,5 @@
 .faculty-grid{grid-template-columns:minmax(0,1fr)}
 .student-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (max-width:800px){.faculty-grid,.student-grid{grid-template-columns:1fr}}
+
+.access-details{width:100%;border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);padding:1.4rem}.access-map{display:block;width:100%;margin-top:2rem;aspect-ratio:16/7}@media (max-width:800px){.access-details{padding:1.1rem}.access-map{aspect-ratio:4/3}}
