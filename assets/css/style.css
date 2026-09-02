@@ -29,7 +29,8 @@
 .research-two-col{grid-template-columns:1fr;gap:1rem}
 .research-prose{max-width:none}
 .hemt-figure{width:100%}
-.faculty-grid,.student-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.faculty-grid{grid-template-columns:1fr}
+.student-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (max-width:800px){.faculty-grid,.student-grid{grid-template-columns:1fr}}
 
 .access-details{width:100%;border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);padding:1.4rem}.access-map{display:block;width:100%;margin-top:2rem;aspect-ratio:16/7}@media (max-width:800px){.access-details{padding:1.1rem}.access-map{aspect-ratio:4/3}}
@@ -78,7 +79,7 @@
 @media (max-width:480px){.research-path{grid-template-columns:1fr}.research-path li{min-height:0}}
 
 /* Faculty profile */
-.faculty-member{max-width:760px}
+.faculty-member{max-width:none}
 .faculty-profile{margin-top:1.5rem;padding-top:1.35rem;border-top:1px solid var(--line)}
 .faculty-profile section+section{margin-top:1.4rem}
 .faculty-profile h3{margin:0 0 .55rem;color:var(--accent);font-size:.75rem;letter-spacing:.1em}
