@@ -86,6 +86,9 @@
 .faculty-profile p{color:var(--text);line-height:1.8}
 .member .faculty-affiliation{white-space:nowrap;color:var(--text);font-size:1.08rem;font-weight:700}
 .faculty-education{white-space:nowrap;font-weight:400}
+
+/* Member names */
+.member h2{font-size:clamp(1.3rem,2vw,1.55rem);margin:.3rem 0}
 .career-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .career-list li{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;padding:.72rem 0;border-bottom:1px solid var(--line);font-size:.9rem}
 .career-list time{color:var(--accent);font-variant-numeric:tabular-nums}
