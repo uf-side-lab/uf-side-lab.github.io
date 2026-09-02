@@ -89,6 +89,12 @@
 
 /* Member names */
 .member h2{font-size:clamp(1.3rem,2vw,1.55rem);margin:.3rem 0}
+
+/* Keep primary navigation in a fixed left-to-right order */
+.header-inner{justify-content:flex-start}
+.nav{margin-left:clamp(1rem,3vw,3rem)}
+.nav ul{justify-content:flex-start}
+@media (max-width:800px){.nav{margin-left:0}}
 .career-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .career-list li{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;padding:.72rem 0;border-bottom:1px solid var(--line);font-size:.9rem}
 .career-list time{color:var(--accent);font-variant-numeric:tabular-nums}
