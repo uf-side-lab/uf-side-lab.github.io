@@ -58,3 +58,22 @@
   .brand-lockup{gap:.55rem}
   .university-emblem{width:28px}
 }
+
+/* Research overview */
+.research-vision{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem);align-items:end}
+.research-vision h2{font-size:clamp(1.8rem,4vw,3.2rem);line-height:1.22;margin:0}
+.research-vision>p{margin:0;color:var(--muted);font-size:1.02rem}
+.research-path{display:grid;grid-template-columns:repeat(4,1fr);list-style:none;margin:2.5rem 0 0;padding:0;border:1px solid var(--line);background:var(--line);gap:1px}
+.research-path li{min-height:132px;padding:1.2rem;background:var(--bg)}
+.research-path span{display:block;color:var(--accent);font-size:.72rem;font-weight:700;letter-spacing:.1em}
+.research-path strong{display:block;margin-top:.85rem;font-size:1.05rem;letter-spacing:.02em}
+.research-path small{display:block;margin-top:.25rem;color:var(--muted);font-size:.78rem;line-height:1.5}
+.area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.area-card{min-height:300px;padding:1.5rem;border:1px solid var(--line);border-top:3px solid var(--accent);background:linear-gradient(145deg,#151517,#0f0f10);display:flex;flex-direction:column}
+.area-card .area-number{margin:0 0 1.25rem;color:var(--accent);font-size:1.25rem;font-weight:700;line-height:1}
+.area-card .eyebrow{margin-bottom:.65rem}
+.area-card h3{font-size:1.3rem;line-height:1.35;margin:0 0 .8rem}
+.area-card>p:not(.area-number):not(.eyebrow){margin:0;color:var(--muted);font-size:.92rem;line-height:1.75}
+.area-card span{margin-top:auto;padding-top:1.25rem;color:var(--accent);font-size:.73rem;letter-spacing:.06em}
+@media (max-width:800px){.research-vision{grid-template-columns:1fr}.research-path{grid-template-columns:repeat(2,1fr)}.area-grid{grid-template-columns:1fr}.area-card{min-height:0}}
+@media (max-width:480px){.research-path{grid-template-columns:1fr}.research-path li{min-height:0}}
