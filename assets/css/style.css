@@ -93,7 +93,7 @@
 /* Research page: source figures and detailed feature sections */
 .materials-overview{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(1.5rem,5vw,4rem);align-items:center;margin-top:2.75rem}
 .materials-overview figure{margin:0;border:1px solid var(--line);background:#f5f5f2;padding:.75rem}
-.materials-overview img{display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:center}
+.materials-overview img{display:block;width:100%;height:auto;aspect-ratio:1288/575;object-fit:contain;object-position:center}
 .materials-overview figcaption,.device-photo figcaption,.large-device-photo figcaption{margin-top:.7rem;color:var(--muted);font-size:.8rem;line-height:1.5}
 .materials-copy h3{font-size:clamp(1.25rem,2.5vw,1.7rem);line-height:1.35;margin:0 0 1rem}
 .materials-copy ul{padding:0;margin:0;list-style:none;border-top:1px solid var(--line)}
@@ -120,3 +120,23 @@
 .future-grid p{margin:0;color:var(--muted);font-size:.9rem}
 @media (max-width:800px){.materials-overview,.research-feature,.research-feature-reverse{grid-template-columns:1fr}.research-feature-reverse .research-feature-copy,.research-feature-reverse .large-device-photo{order:initial}.research-feature-visual{max-width:620px}.future-grid{grid-template-columns:1fr}}
 @media (max-width:480px){.research-feature-visual{grid-template-columns:1fr}.materials-overview figure{padding:.5rem}}
+
+/* Collaboration and outlook */
+.collaboration-title{background:radial-gradient(circle at 84% 16%,#162d41 0,transparent 33%)}
+.outlook-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.outlook-grid article{border:1px solid var(--line);border-top:3px solid var(--accent);padding:1.5rem;background:linear-gradient(145deg,#151517,#0f0f10)}
+.outlook-grid span{display:block;color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:.1em}
+.outlook-grid h3{margin:.85rem 0;font-size:1.25rem;line-height:1.4}
+.outlook-grid p{margin:0;color:var(--muted);font-size:.93rem;line-height:1.75}
+.partnership-intro{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem);align-items:end;margin-bottom:2rem}
+.partnership-intro h2{margin:0;font-size:clamp(1.75rem,3.4vw,2.7rem)}
+.partnership-intro>p{margin:0;color:var(--muted)}
+.partnership-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;border:1px solid var(--line);background:var(--line)}
+.partnership-grid article{padding:1.5rem;background:var(--bg)}
+.partnership-grid .eyebrow{margin-bottom:.65rem}
+.partnership-grid h3{margin:0 0 .8rem;font-size:1.25rem}
+.partnership-grid p:last-child{margin:0;color:var(--muted);font-size:.92rem}
+.collaboration-track{border:1px solid var(--line);border-left:3px solid var(--accent);padding:clamp(1.4rem,4vw,2.4rem);background:var(--surface)}
+.collaboration-track h2{margin:0 0 .75rem;font-size:clamp(1.45rem,3vw,2rem)}
+.collaboration-track p:last-child{margin:0;color:var(--muted)}
+@media (max-width:800px){.outlook-grid{grid-template-columns:1fr}.partnership-intro{grid-template-columns:1fr}.partnership-grid{grid-template-columns:1fr}}
