@@ -141,4 +141,7 @@
 .collaboration-track{border:1px solid var(--line);border-left:3px solid var(--accent);padding:clamp(1.4rem,4vw,2.4rem);background:var(--surface)}
 .collaboration-track h2{margin:0 0 .75rem;font-size:clamp(1.45rem,3vw,2rem)}
 .collaboration-track p:last-child{margin:0;color:var(--muted)}
+.partner-list{display:flex;flex-wrap:wrap;gap:.65rem;margin:1.2rem 0 .75rem;padding:0;list-style:none}
+.partner-list li{padding:.38rem .8rem;border:1px solid color-mix(in srgb,var(--accent) 55%,var(--line));background:#101820;color:var(--text);font-size:.95rem;font-weight:700;letter-spacing:.03em}
+.collaboration-track .partner-note{font-size:.8rem}
 @media (max-width:800px){.outlook-grid{grid-template-columns:1fr}.partnership-intro{grid-template-columns:1fr}.partnership-grid{grid-template-columns:1fr}}
