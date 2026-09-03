@@ -91,8 +91,8 @@
 .member h2{font-size:clamp(1.3rem,2vw,1.55rem);margin:.3rem 0}
 
 /* Keep primary navigation in a fixed left-to-right order */
-.header-inner{justify-content:flex-start}
-.nav{margin-left:clamp(1rem,3vw,3rem)}
+.header-inner{justify-content:space-between}
+.nav{margin-left:auto}
 .nav ul{justify-content:flex-start}
 @media (max-width:800px){.nav{margin-left:0}}
 
