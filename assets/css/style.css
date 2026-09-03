@@ -223,3 +223,12 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 /* Give the AlGaN/GaN schematic a little more visual weight than the device photo. */
 .research-feature-visual{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr)}
 @media (max-width:480px){.research-feature-visual{grid-template-columns:1fr}}
+
+/* Give the access details room to breathe. */
+.access-details{padding:clamp(2rem,4vw,3.2rem)}
+.access-details h2{margin:0 0 1rem}
+.access-details h2+p{margin:0 0 2.5rem;line-height:2}
+.access-details ul{display:grid;gap:.55rem;margin:0 0 2rem;padding-left:1.5rem}
+.access-details .muted{margin:0 0 1.5rem;line-height:1.9}
+.access-details p:last-child{margin:0}
+@media (max-width:800px){.access-details{padding:clamp(1.5rem,6vw,2rem)}}
