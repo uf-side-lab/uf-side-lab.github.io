@@ -121,7 +121,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .research-vision{align-items:start}
 .research-vision>p{padding-top:2.45rem}
 .materials-overview{grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem)}
-@media (max-width:800px){.research-vision>p{padding-top:0}}
+@media (max-width:800px){.materials-overview{grid-template-columns:1fr}.research-vision>p{padding-top:0}}
 
 /* Use one balanced scale for all three research-theme headings */
 .research-feature-copy h2{font-size:clamp(1.3rem,2vw,1.8rem);white-space:nowrap}
@@ -203,3 +203,8 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .partner-list li{padding:.38rem .8rem;border:1px solid color-mix(in srgb,var(--accent) 55%,var(--line));background:#101820;color:var(--text);font-size:.95rem;font-weight:700;letter-spacing:.03em}
 .collaboration-track .partner-note{font-size:.8rem}
 @media (max-width:800px){.outlook-grid{grid-template-columns:1fr}.partnership-intro{grid-template-columns:1fr}.partnership-grid{grid-template-columns:1fr}}
+
+/* Final alignment for the research overview columns */
+.materials-overview{grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem)}
+.research-vision>p{padding-top:2.45rem}
+@media (max-width:800px){.research-vision>p{padding-top:0}}
