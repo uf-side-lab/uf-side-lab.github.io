@@ -114,8 +114,8 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .research-card--ga2o3{background-image:linear-gradient(135deg,rgba(8,10,12,.94),rgba(8,10,12,.55)),url("../images/research/ga2o3-crystal.png");background-size:cover,auto 118%;background-position:center,center 44%}
 .research-card>p:not(.eyebrow){color:#e3e5e5}
 
-.hero>.container>.hero-lede{max-width:none;white-space:nowrap;font-size:clamp(.82rem,1.35vw,1.05rem)}
-@media (max-width:600px){.hero>.container>.hero-lede{white-space:nowrap;font-size:clamp(.45rem,2vw,.85rem);letter-spacing:-.08em}}
+.hero>.container>.hero-lede{max-width:650px;white-space:normal;font-size:clamp(.82rem,1.35vw,1.05rem)}
+@media (max-width:600px){.hero>.container>.hero-lede{font-size:clamp(.78rem,3.5vw,1.05rem);letter-spacing:normal}}
 
 /* Align the vision statement and its supporting copy at the top */
 .research-vision{align-items:start}
