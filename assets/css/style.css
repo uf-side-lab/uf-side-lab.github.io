@@ -219,3 +219,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
   .research-vision,.materials-overview{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.5rem,5vw,5rem)}
   .materials-copy{grid-column:2}
 }
+
+/* Give the AlGaN/GaN schematic a little more visual weight than the device photo. */
+.research-feature-visual{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr)}
+@media (max-width:480px){.research-feature-visual{grid-template-columns:1fr}}
