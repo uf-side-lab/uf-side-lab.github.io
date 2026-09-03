@@ -235,3 +235,6 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* Separate the member-group headings from the card borders. */
 .member-group-title{margin-bottom:1rem!important}
+
+/* Let the partnership invitation sit further left and stay to two lines on desktop. */
+@media (min-width:801px){.partnership-intro{grid-template-columns:minmax(0,.4fr) minmax(0,1.6fr);gap:clamp(1.5rem,3vw,3rem)}}
