@@ -119,7 +119,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* Align the vision statement and its supporting copy at the top */
 .research-vision{align-items:start}
-.research-vision>p{padding-top:2.45rem}
+.research-vision>p{padding-top:3rem}
 .materials-overview{grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem)}
 @media (max-width:800px){.materials-overview{grid-template-columns:1fr}.research-vision>p{padding-top:0}}
 
@@ -206,7 +206,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* Final alignment for the research overview columns */
 .materials-overview{grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem)}
-.research-vision>p{padding-top:2.45rem}
+.research-vision>p{padding-top:3rem}
 @media (max-width:800px){.materials-overview{grid-template-columns:1fr}.research-vision>p{padding-top:0}}
 
 /* Balance the homepage title and keep its subtitle on one line when space allows */
