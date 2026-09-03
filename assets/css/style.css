@@ -212,7 +212,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 /* Balance the homepage title and keep its subtitle on one line when space allows */
 .hero h1{font-size:clamp(.92rem,4.5vw,3.5rem)}
 .hero>.container>.hero-lede{max-width:none;white-space:nowrap;font-size:clamp(.82rem,1.35vw,1.05rem)}
-@media (max-width:600px){.hero>.container>.hero-lede{max-width:650px;white-space:normal;font-size:clamp(.78rem,3.5vw,1.05rem)}}
+@media (max-width:800px){.hero>.container>.hero-lede{max-width:650px;white-space:normal;font-size:clamp(.78rem,3.5vw,1.05rem)}}
 
 /* Make the upper and lower research copy share the exact same column edges */
 @media (min-width:801px){
