@@ -119,6 +119,9 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* Align the vision statement and its supporting copy at the top */
 .research-vision{align-items:start}
+.research-vision>p{padding-top:2.45rem}
+.materials-overview{grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem)}
+@media (max-width:800px){.research-vision>p{padding-top:0}}
 
 /* Use one balanced scale for all three research-theme headings */
 .research-feature-copy h2{font-size:clamp(1.45rem,2.25vw,2rem)}
