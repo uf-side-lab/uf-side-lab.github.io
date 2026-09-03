@@ -109,9 +109,9 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* Research cards use the corresponding laboratory photographs */
 .research-card{min-height:265px;background-color:#0b0b0c;background-position:center;background-size:cover;background-repeat:no-repeat;color:var(--text)}
-.research-card--gan{background-image:linear-gradient(135deg,rgba(8,10,12,.94),rgba(8,10,12,.55)),url("../images/research/gan-hemt-device.png");background-size:cover,115% auto;background-position:center,center 43%}
-.research-card--inp{background-image:linear-gradient(135deg,rgba(8,10,12,.94),rgba(8,10,12,.55)),url("../images/research/inp-hemt-device.png");background-size:cover,114% auto;background-position:center,center 48%}
-.research-card--ga2o3{background-image:linear-gradient(135deg,rgba(8,10,12,.94),rgba(8,10,12,.55)),url("../images/research/ga2o3-crystal.png");background-size:cover,auto 118%;background-position:center,center 44%}
+.research-card--gan{background-image:linear-gradient(135deg,rgba(8,10,12,.94),rgba(8,10,12,.55)),url("../images/home/gan-hemt-card.png");background-size:cover,115% auto;background-position:center,center 43%}
+.research-card--inp{background-image:linear-gradient(135deg,rgba(8,10,12,.94),rgba(8,10,12,.55)),url("../images/home/inp-hemt-card.png");background-size:cover,114% auto;background-position:center,center 48%}
+.research-card--ga2o3{background-image:linear-gradient(135deg,rgba(8,10,12,.94),rgba(8,10,12,.55)),url("../images/home/ga2o3-card.png");background-size:cover,auto 118%;background-position:center,center 44%}
 .research-card>p:not(.eyebrow){color:#e3e5e5}
 
 .hero>.container>.hero-lede{max-width:650px;white-space:normal;font-size:clamp(.82rem,1.35vw,1.05rem)}
