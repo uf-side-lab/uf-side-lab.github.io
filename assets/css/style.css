@@ -116,6 +116,9 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 .hero>.container>.hero-lede{max-width:none;white-space:nowrap;font-size:clamp(.82rem,1.35vw,1.05rem)}
 @media (max-width:600px){.hero>.container>.hero-lede{white-space:nowrap;font-size:clamp(.45rem,2vw,.85rem);letter-spacing:-.08em}}
+
+/* Align the vision statement and its supporting copy at the top */
+.research-vision{align-items:start}
 .career-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .career-list li{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;padding:.72rem 0;border-bottom:1px solid var(--line);font-size:.9rem}
 .career-list time{color:var(--accent);font-variant-numeric:tabular-nums}
