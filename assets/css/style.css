@@ -262,9 +262,6 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .access-rooms{margin:1.1rem 0 0!important;color:var(--text);line-height:2}
 .access-route{margin:0 0 4.5rem}
 .access-route>p{margin:0;line-height:1.9}
-.campus-route-figure{margin:1.35rem 0}
-.campus-route-figure img{display:block;width:100%;height:auto;border:1px solid var(--line)}
-.campus-route-figure figcaption{margin-top:.55rem;color:var(--muted);font-size:.8rem}
 .access-wayfinding{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:stretch;gap:.55rem;margin:1.35rem 0;background:var(--line);padding:1px}
 .wayfinding-stop{display:grid;align-content:center;min-height:102px;padding:1rem;background:#101012;text-align:center}
 .wayfinding-stop strong{line-height:1.45;white-space:nowrap}
