@@ -232,7 +232,6 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .access-details ul{display:grid;gap:.55rem;margin:0 0 2rem;padding-left:1.5rem}
 .access-details .muted{margin:0 0 1.5rem;line-height:1.9}
 .access-details p:last-child{margin:0}
-.access-walk-note{display:inline-block;margin-top:.5em}
 @media (max-width:800px){.access-details{padding:clamp(1.5rem,6vw,2rem)}}
 
 /* Separate the member-group headings from the card borders. */
@@ -258,25 +257,16 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 /* Career references and visitor wayfinding. */
 .career-links-list{display:grid;gap:.65rem;margin:0;padding:0;list-style:none}
 .career-links-list a{display:inline-flex;align-items:center;gap:.45rem;font-weight:700}
-.access-address{margin:0 0 3.25rem;line-height:2}
+.access-address{margin:0 0 4.5rem;line-height:2}
 .access-address>p:first-child{margin:0}
 .access-rooms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1.1rem 0 0}
-.access-rooms>div{border:1px solid var(--line);padding:.7rem .85rem;background:#101012}
+.access-rooms>div{display:flex;align-items:baseline;gap:.8rem;border:1px solid var(--line);padding:.7rem .85rem;background:#101012}
 .access-rooms dt{color:var(--accent);font-size:.76rem;font-weight:700;letter-spacing:.08em}
-.access-rooms dd{margin:.18rem 0 0;color:var(--text);font-weight:700}
-.access-address .access-walk-note{margin:.85rem 0 0}
-.access-route{margin:0 0 3.25rem}
+.access-rooms dd{margin:0;color:var(--text);font-weight:700}
+.access-route{margin:0 0 4.5rem}
 .access-route>p{margin:0;line-height:1.9}
-.access-wayfinding{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:stretch;gap:.55rem;margin:1.35rem 0;background:var(--line);padding:1px}
-.wayfinding-stop{display:grid;align-content:center;gap:.3rem;min-height:102px;padding:1rem;background:#101012}
-.wayfinding-stop span{color:var(--accent);font-size:.67rem;font-weight:700;letter-spacing:.1em}
-.wayfinding-stop strong{line-height:1.45}.wayfinding-stop small{color:var(--muted);font-size:.78rem;font-weight:400}
-.wayfinding-target{background:#0d1c27}.wayfinding-arrow{align-self:center;color:var(--accent);font-size:1.25rem;font-weight:700}
-.access-route-steps{display:grid;gap:.65rem;margin:0;padding:0;list-style:none;counter-reset:route}
-.access-route-steps li{position:relative;padding-left:2rem;line-height:1.8;counter-increment:route}
-.access-route-steps li::before{content:counter(route);position:absolute;left:0;top:.18rem;display:grid;place-items:center;width:1.35rem;height:1.35rem;border-radius:50%;background:var(--accent);color:#071017;font-size:.75rem;font-weight:700}
 .access-route-link{margin:1.2rem 0 0!important;font-weight:700}
 .access-transport h2{margin-bottom:1rem}
 .access-transport ul{margin-top:0}
 .access-transport p:last-child{margin-bottom:0}
-@media (max-width:620px){.access-rooms{grid-template-columns:1fr}.access-wayfinding{grid-template-columns:1fr;gap:0}.wayfinding-arrow{justify-self:center;transform:rotate(90deg);margin:-.1rem 0}.wayfinding-stop{min-height:auto}.access-route-steps li{padding-left:1.85rem}}
+@media (max-width:620px){.access-rooms{grid-template-columns:1fr}}
