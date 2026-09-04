@@ -238,6 +238,8 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* The English laboratory name is part of the hero lockup. */
 .hero-translation{font-weight:700}
+.hero .hero-translation{font-size:clamp(.9rem,1.2vw,1.05rem)}
+.hero-translation .hero-initial{color:var(--accent)}
 .materials-overview img{aspect-ratio:1303/741}
 
 /* Let the partnership invitation sit further left and stay to two lines on desktop. */
