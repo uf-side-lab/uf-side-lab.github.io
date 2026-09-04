@@ -241,9 +241,15 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* The English laboratory name is part of the hero lockup. */
 .hero-translation{font-weight:700}
-.hero .hero-translation{font-size:clamp(.9rem,1.2vw,1.05rem)}
+.hero .hero-translation{max-width:none;font-size:clamp(.78rem,1.1vw,1.05rem);letter-spacing:.04em;white-space:nowrap}
 .hero-translation .hero-initial{color:var(--accent)}
+@media (max-width:800px){.hero .hero-translation{font-size:clamp(.78rem,3.5vw,.95rem);white-space:normal}}
 .materials-overview img{aspect-ratio:1303/741}
 
 /* Let the partnership invitation sit further left and stay to two lines on desktop. */
 @media (min-width:801px){.partnership-intro{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:clamp(1.5rem,3vw,3rem)}.partnership-intro h2{white-space:nowrap}}
+
+/* Keep the faculty profile readable and make the career partner list lightweight. */
+.faculty-member .faculty-career-link{margin-top:.75rem}
+.career-page .partner-list{gap:.6rem 1.1rem}
+.career-page .partner-list li{padding:0;border:0;background:transparent;color:var(--text)}
