@@ -236,5 +236,9 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 /* Separate the member-group headings from the card borders. */
 .member-group-title{margin-bottom:1rem!important}
 
+/* The English laboratory name is part of the hero lockup. */
+.hero-translation{font-weight:700}
+.materials-overview img{aspect-ratio:1303/741}
+
 /* Let the partnership invitation sit further left and stay to two lines on desktop. */
 @media (min-width:801px){.partnership-intro{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:clamp(1.5rem,3vw,3rem)}.partnership-intro h2{white-space:nowrap}}
