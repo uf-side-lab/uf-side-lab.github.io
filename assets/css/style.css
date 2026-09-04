@@ -259,7 +259,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .career-links-list a{display:inline-flex;align-items:center;gap:.45rem;font-weight:700}
 .access-address{margin:0 0 4.5rem;line-height:2}
 .access-address>p:first-child{margin:0}
-.access-rooms{display:flex;justify-content:space-between;align-items:baseline;gap:1.5rem;margin:1.1rem 0 0}
+.access-rooms{display:flex;flex-direction:column;align-items:flex-start;gap:.55rem;margin:1.1rem 0 0}
 .access-rooms p{display:flex;align-items:baseline;gap:1rem;margin:0;white-space:nowrap}
 .access-rooms span{color:var(--accent);font-size:.78rem;font-weight:700;letter-spacing:.08em}
 .access-rooms strong{color:var(--text);font-size:1.05rem}
@@ -273,4 +273,4 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .access-transport h2{margin-bottom:1rem}
 .access-transport ul{margin-top:0}
 .access-transport p:last-child{margin-bottom:0}
-@media (max-width:620px){.access-rooms{align-items:flex-start;flex-direction:column;gap:.55rem}.access-route-steps li{padding-left:1.85rem}}
+@media (max-width:620px){.access-route-steps li{padding-left:1.85rem}}
