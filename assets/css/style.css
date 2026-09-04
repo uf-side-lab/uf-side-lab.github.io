@@ -125,6 +125,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 
 /* Use one balanced scale for all three research-theme headings */
 .research-feature-copy h2{font-size:clamp(1.3rem,2vw,1.8rem);white-space:nowrap}
+.research-feature-copy h2{scroll-margin-top:6rem}
 @media (max-width:480px){.research-feature-copy h2{font-size:clamp(1.15rem,5.4vw,1.45rem)}}
 
 /* Balance the GaN figures against the longer text column */
