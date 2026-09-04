@@ -262,15 +262,13 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .access-rooms{margin:1.1rem 0 0!important;color:var(--text);line-height:2}
 .access-route{margin:0 0 4.5rem}
 .access-route>p{margin:0;line-height:1.9}
-.access-wayfinding{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:stretch;gap:.55rem;margin:1.35rem 0;background:var(--line);padding:1px}
-.wayfinding-stop{display:grid;align-content:center;min-height:102px;padding:1rem;background:#101012;text-align:center}
-.wayfinding-stop strong{line-height:1.45;white-space:nowrap}
-.wayfinding-target strong{font-size:clamp(.78rem,2vw,1rem)}
-.wayfinding-target{background:#0d1c27}.wayfinding-arrow{align-self:center;color:var(--accent);font-size:1.25rem;font-weight:700}
+.campus-route-figure{margin:1.35rem 0}
+.campus-route-figure img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.campus-route-figure figcaption{margin-top:.55rem;color:var(--muted);font-size:.8rem}
 .access-route-steps{display:grid;gap:.65rem;margin:0;padding:0;list-style:none;counter-reset:route}
 .access-route-steps li{position:relative;padding-left:2rem;line-height:1.8;counter-increment:route}
 .access-route-steps li::before{content:counter(route);position:absolute;left:0;top:.18rem;display:grid;place-items:center;width:1.35rem;height:1.35rem;border-radius:50%;background:var(--accent);color:#071017;font-size:.75rem;font-weight:700}
 .access-transport h2{margin-bottom:1rem}
 .access-transport ul{margin-top:0}
 .access-transport p:last-child{margin-bottom:0}
-@media (max-width:620px){.access-wayfinding{grid-template-columns:1fr;gap:0}.wayfinding-arrow{justify-self:center;transform:rotate(90deg);margin:-.1rem 0}.wayfinding-stop{min-height:auto}.access-route-steps li{padding-left:1.85rem}}
+@media (max-width:620px){.access-route-steps li{padding-left:1.85rem}}
