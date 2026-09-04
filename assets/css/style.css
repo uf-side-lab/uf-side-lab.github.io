@@ -231,6 +231,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .access-details ul{display:grid;gap:.55rem;margin:0 0 2rem;padding-left:1.5rem}
 .access-details .muted{margin:0 0 1.5rem;line-height:1.9}
 .access-details p:last-child{margin:0}
+.access-walk-note{display:inline-block;margin-top:.5em}
 @media (max-width:800px){.access-details{padding:clamp(1.5rem,6vw,2rem)}}
 
 /* Separate the member-group headings from the card borders. */
