@@ -270,6 +270,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .access-route-steps{display:grid;gap:.65rem;margin:0;padding:0;list-style:none;counter-reset:route}
 .access-route-steps li{position:relative;padding-left:2rem;line-height:1.8;counter-increment:route}
 .access-route-steps li::before{content:counter(route);position:absolute;left:0;top:.18rem;display:grid;place-items:center;width:1.35rem;height:1.35rem;border-radius:50%;background:var(--accent);color:#071017;font-size:.75rem;font-weight:700}
+@media (min-width:801px){.access-route-steps li:last-child{font-size:.9rem;white-space:nowrap}}
 .access-transport h2{margin-bottom:1rem}
 .access-transport ul{margin-top:0}
 .access-transport p:last-child{margin-bottom:0}
