@@ -12,6 +12,9 @@
 .feature{border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);padding:1.25rem 1.4rem}
 .news-list,.plain-list{border:1px solid var(--line);background:var(--bg)}
 .news-list li,.plain-list li{padding:1rem 1.2rem}
+.news-list li{display:grid;grid-template-columns:7.2rem minmax(0,1fr)}
+.news-list time{display:block;width:auto}
+.news-list span{min-width:0}
 .member{border:1px solid var(--line);border-top:2px solid var(--accent);padding:1.2rem;background:linear-gradient(145deg,#151517,#0f0f10)}
 .member-theme{margin-top:1.15rem!important;padding:1rem!important;border:1px solid var(--line)!important;border-left:3px solid var(--accent)!important;background:#101012;line-height:1.7!important}
 .member-theme span{margin-bottom:.5rem!important}
