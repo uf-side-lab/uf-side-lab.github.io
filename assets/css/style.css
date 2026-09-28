@@ -256,6 +256,23 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .hero .hero-translation{max-width:none;font-size:clamp(.78rem,1.1vw,1.05rem);letter-spacing:.04em;white-space:nowrap}
 .hero-translation .hero-initial{color:var(--accent)}
 @media (max-width:800px){.hero .hero-translation{font-size:clamp(.78rem,3.5vw,.95rem);white-space:normal}}
+
+/* Keep the longer English laboratory name inside the hero frame. */
+.hero-en .hero-title-en{
+  max-width:100%;
+  white-space:normal;
+  overflow-wrap:normal;
+  font-size:clamp(2rem,4.2vw,4rem);
+  line-height:1.12;
+}
+.hero-en .hero-title-en .hero-initial{
+  color:var(--accent);
+  font-size:1em;
+}
+.hero-en>.container>.hero-lede{
+  max-width:100%;
+  white-space:normal;
+}
 .materials-overview img{aspect-ratio:1303/741}
 
 /* Let the partnership invitation sit further left and stay to two lines on desktop. */
