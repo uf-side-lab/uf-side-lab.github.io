@@ -343,8 +343,14 @@ html[lang="en"] .faculty-member.member .faculty-career-link{
 
 /* Keep the Access and Achievements body content on the shared page grid. */
 html[lang="en"] .access-details.container,
-html[lang="en"] .achievements-content.container{
+html[lang="en"] .achievements-content.container,
+html[lang="ja"] .achievements-page .container.prose{
   width:min(calc(100% - 2.5rem),var(--max));
   max-width:var(--max);
   margin-inline:auto;
+}
+
+/* English page titles only need the primary heading. */
+html[lang="en"] .page-title .eyebrow{
+  display:none;
 }
