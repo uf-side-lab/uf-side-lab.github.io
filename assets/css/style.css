@@ -401,7 +401,7 @@ html[lang="en"] .news-list time{
 /* Keep wrapped material descriptions aligned beside their bold labels. */
 html[lang="en"] .materials-copy li{
   display:grid;
-  grid-template-columns:max-content minmax(0,1fr);
+  grid-template-columns:9rem minmax(0,1fr);
   column-gap:.35rem;
   align-items:start;
 }
