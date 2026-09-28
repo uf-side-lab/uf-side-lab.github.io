@@ -327,3 +327,22 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .access-transport ul{margin-top:0}
 .access-transport p:last-child{margin-bottom:0}
 @media (max-width:620px){.access-route-steps li{padding-left:1.85rem}}
+
+/* Match the English professor card to the B4 member cards. */
+html[lang="en"] .faculty-member.member{
+  width:100%;
+}
+html[lang="en"] .faculty-member.member .faculty-affiliation{
+  white-space:normal;
+  color:var(--muted);
+  font-size:.9rem;
+}
+html[lang="en"] .faculty-member.member .faculty-career-link{
+  display:inline-block;
+}
+
+/* Keep the Access title panel and content panel on the same grid. */
+html[lang="en"] .access-details.container{
+  width:min(calc(100% - 2.5rem),var(--max));
+  margin-inline:auto;
+}
