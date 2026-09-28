@@ -397,6 +397,17 @@ html[lang="en"] .news-list li{
 html[lang="en"] .news-list time{
   white-space:nowrap;
 }
+
+/* Keep wrapped material descriptions aligned beside their bold labels. */
+html[lang="en"] .materials-copy li{
+  display:grid;
+  grid-template-columns:max-content minmax(0,1fr);
+  column-gap:.35rem;
+  align-items:start;
+}
+html[lang="en"] .materials-copy li>span{
+  min-width:0;
+}
 @media (max-width:800px){
   html[lang="en"] .news-list li{
     grid-template-columns:1fr;
