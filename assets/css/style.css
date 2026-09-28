@@ -273,6 +273,29 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
   max-width:100%;
   white-space:normal;
 }
+
+/* Keep the longer English research copy and media within their columns. */
+.research-en .research-feature{
+  align-items:start;
+}
+.research-en .research-feature-copy,
+.research-en .research-feature figure,
+.research-en .materials-copy{
+  min-width:0;
+}
+.research-en .research-feature-copy h2{
+  white-space:normal;
+  overflow-wrap:break-word;
+}
+.research-en .research-feature img,
+.research-en .materials-overview img{
+  max-width:100%;
+}
+.research-en .research-points strong,
+.research-en .materials-copy li,
+.research-en .future-grid h3{
+  overflow-wrap:break-word;
+}
 .materials-overview img{aspect-ratio:1303/741}
 
 /* Let the partnership invitation sit further left and stay to two lines on desktop. */
