@@ -341,8 +341,7 @@ html[lang="en"] .faculty-member.member .faculty-career-link{
   display:inline-block;
 }
 
-/* Keep the Access and Achievements body content on the shared page grid. */
-html[lang="en"] .access-details.container,
+/* Keep the Achievements body content on the shared page grid. */
 html[lang="en"] .achievements-content.container,
 html[lang="ja"] .achievements-page .container.prose{
   width:min(calc(100% - 2.5rem),var(--max));
