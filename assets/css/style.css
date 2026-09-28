@@ -359,3 +359,20 @@ html[lang="en"] .page-title .eyebrow{
 html[lang="en"] .access-address>p:first-child{
   margin:0 0 2rem;
 }
+
+/* Balance long English collaboration headings and supporting copy. */
+@media (min-width:801px){
+  html[lang="en"] .partnership-intro{
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    gap:clamp(2rem,5vw,5rem);
+    align-items:center;
+  }
+  html[lang="en"] .partnership-intro h2{
+    white-space:normal;
+  }
+}
+
+/* Center research figures beside the full height of their copy. */
+html[lang="en"] .research-en .research-feature{
+  align-items:center;
+}
