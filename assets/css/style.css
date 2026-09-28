@@ -375,3 +375,16 @@ html[lang="en"] .access-address>p:first-child{
 html[lang="en"] .research-en .research-feature{
   align-items:center;
 }
+
+/* Give English month-name dates enough room without wrapping. */
+html[lang="en"] .news-list li{
+  grid-template-columns:10rem minmax(0,1fr);
+}
+html[lang="en"] .news-list time{
+  white-space:nowrap;
+}
+@media (max-width:800px){
+  html[lang="en"] .news-list li{
+    grid-template-columns:1fr;
+  }
+}
