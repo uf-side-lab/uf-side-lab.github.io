@@ -296,7 +296,7 @@ body{font-family:"IBM Plex Sans JP",ui-sans-serif,system-ui,-apple-system,"Hirag
 .research-en .future-grid h3{
   overflow-wrap:break-word;
 }
-.materials-overview img{aspect-ratio:1303/741}
+.materials-overview img{aspect-ratio:1666/944}
 
 /* Let the partnership invitation sit further left and stay to two lines on desktop. */
 @media (min-width:801px){.partnership-intro{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:clamp(1.5rem,3vw,3rem)}.partnership-intro h2{white-space:nowrap}}
