@@ -376,9 +376,9 @@ html[lang="en"] .research-en .research-feature{
   align-items:center;
 }
 
-/* Give English month-name dates enough room without wrapping. */
+/* Keep abbreviated English dates aligned without wrapping. */
 html[lang="en"] .news-list li{
-  grid-template-columns:10rem minmax(0,1fr);
+  grid-template-columns:7.2rem minmax(0,1fr);
 }
 html[lang="en"] .news-list time{
   white-space:nowrap;
