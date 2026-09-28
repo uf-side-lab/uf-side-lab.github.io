@@ -362,8 +362,8 @@ html[lang="en"] .access-address>p:first-child{
 /* Balance long English collaboration headings and supporting copy. */
 @media (min-width:801px){
   html[lang="en"] .partnership-intro{
-    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
-    gap:clamp(2rem,5vw,5rem);
+    grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);
+    gap:clamp(1.5rem,3vw,2.5rem);
     align-items:center;
   }
   html[lang="en"] .partnership-intro h2{
