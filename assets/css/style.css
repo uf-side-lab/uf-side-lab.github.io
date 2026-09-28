@@ -366,8 +366,22 @@ html[lang="en"] .access-address>p:first-child{
     gap:clamp(1.5rem,3vw,2.5rem);
     align-items:center;
   }
+  html[lang="en"] .partnership-intro>div{
+    display:contents;
+  }
+  html[lang="en"] .partnership-intro>div>.eyebrow{
+    grid-column:1;
+    grid-row:1;
+  }
   html[lang="en"] .partnership-intro h2{
+    grid-column:1;
+    grid-row:2;
     white-space:normal;
+  }
+  html[lang="en"] .partnership-intro>p{
+    grid-column:2;
+    grid-row:2;
+    align-self:center;
   }
 }
 
