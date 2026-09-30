@@ -1,19 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://uf-side-lab.github.io/</loc></url>
-  <url><loc>https://uf-side-lab.github.io/research.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/collaboration.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/achievements.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/news.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/members.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/career.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/access.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/research.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/collaboration.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/achievements.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/news.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/members.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/career.html</loc></url>
-  <url><loc>https://uf-side-lab.github.io/en/access.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://uf-side-lab.github.io/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/research.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/research.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/research.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/research.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/research.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/research.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/research.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/research.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/collaboration.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/collaboration.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/collaboration.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/collaboration.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/collaboration.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/collaboration.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/collaboration.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/collaboration.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/achievements.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/achievements.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/achievements.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/achievements.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/achievements.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/achievements.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/achievements.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/achievements.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/news.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/news.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/news.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/news.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/news.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/news.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/news.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/news.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/members.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/members.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/members.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/members.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/members.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/members.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/members.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/members.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/career.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/career.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/career.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/career.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/career.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/career.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/career.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/career.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/access.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/access.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/access.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/access.html" />
+  </url>
+  <url>
+    <loc>https://uf-side-lab.github.io/en/access.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://uf-side-lab.github.io/access.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uf-side-lab.github.io/en/access.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uf-side-lab.github.io/access.html" />
+  </url>
 </urlset>

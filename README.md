@@ -1,47 +1,65 @@
+# 福井大学 半導体集積デバイス工学研究室 公式ウェブサイト
 
-# 福井大学 半導体集積デバイス工学研究室
+**Semiconductor Integrated Device Engineering Laboratory, University of Fukui**
 
-**Semiconductor Integrated Device Engineering Laboratory, Fukui University**
+福井大学 文京キャンパス「半導体集積デバイス工学研究室（SIDE LAB）」の公式ウェブサイトです。GaN HEMT、InP HEMT、Ga₂O₃（酸化ガリウム）を中心に、高周波・高耐圧・低雑音デバイスと集積回路技術に関する研究を紹介しています。
 
-福井大学・文京キャンパスの半導体集積デバイス工学研究室の公式ウェブサイトです。GaN HEMT、N極性GaNのプロセス技術、電流コラプス解析、酸化ガリウム結晶の抵抗率評価に取り組んでいます。
-
-公開サイト：<https://uf-side-lab.github.io/>
+- 公開サイト（日本語）：<https://uf-side-lab.github.io/>
+- English site: <https://uf-side-lab.github.io/en/>
 
 ## ページ構成
 
-| ページ | 内容 |
-| --- | --- |
-| トップ | 研究室の概要、研究テーマ、ニュース |
-| 研究紹介 | HEMTの基礎と4つの研究テーマ |
-| メンバー | 教員・学生と担当テーマ |
-| 業績・論文・ニュース・設備紹介 | 最新情報（準備中の項目を含む） |
-| アクセス | 所在地、交通案内、地図 |
+| ページ | 日本語 | English | 内容 |
+| --- | --- | --- | --- |
+| Home | `index.html` | `en/index.html` | 研究室概要、研究テーマ、ニュース |
+| 研究紹介 / Research | `research.html` | `en/research.html` | GaN HEMT、InP HEMT、Ga₂O₃の研究内容 |
+| 連携・展開 / Collaboration & Outlook | `collaboration.html` | `en/collaboration.html` | 今後の研究展開と共同研究分野 |
+| 業績 / Achievements | `achievements.html` | `en/achievements.html` | 論文・学会発表などの研究業績 |
+| ニュース / News | `news.html` | `en/news.html` | 研究室からのお知らせ |
+| メンバー / Members | `members.html` | `en/members.html` | 教員・学生と研究テーマ |
+| 経歴 / Profile | `career.html` | `en/career.html` | 教員の経歴・業績情報・共同研究実績 |
+| アクセス / Access | `access.html` | `en/access.html` | 所在地、学内案内図、交通案内、Google Map |
 
-## ファイル構成
+## ディレクトリ構成
 
 ```text
-├── index.html              # トップページ
-├── research.html           # 研究紹介
-├── members.html            # メンバー
-├── achievements.html       # 業績
-├── publications.html       # 論文
-├── news.html               # ニュース
-├── facilities.html         # 設備紹介
-├── access.html             # アクセス
-└── assets/
-    ├── css/style.css       # 共通スタイル
-    └── js/main.js          # モバイルメニューなどの共通操作
+├── index.html                    # 日本語トップページ
+├── research.html                # 日本語各ページ
+├── collaboration.html
+├── achievements.html
+├── news.html
+├── members.html
+├── career.html
+├── access.html
+├── en/                           # 英語版ページ
+├── assets/
+│   ├── css/style.css             # 共通スタイル
+│   ├── js/                       # ナビゲーションなどの共通処理
+│   └── images/                   # 研究写真・図・案内図
+├── robots.txt                    # クローラー向け設定
+├── sitemap.xml                   # 検索エンジン向けサイトマップ
+└── .github/workflows/
+    └── deploy-pages.yml          # GitHub Pagesへの自動公開
 ```
 
-## 更新方法
+## 更新と公開
 
-各ページの内容は対応するHTMLファイルを編集します。デザインの共通調整は `assets/css/style.css`、メニューなどの操作は `assets/js/main.js` で行います。
+HTML、CSS、画像などを更新して`main`ブランチへ反映すると、GitHub ActionsからGitHub Pagesへ自動公開されます。静的サイトのため、ビルドコマンドや外部フレームワークは不要です。
 
-`main` ブランチへ変更を反映すると、GitHub Pagesにより公開サイトへ自動で反映されます。静的サイトのため、追加のビルド作業や依存パッケージのインストールは不要です。
+## 検索エンジン向け設定
+
+- 各ページに固有の`title`と`description`を設定
+- canonical URLで`/`と`index.html`などの重複URLを整理
+- `hreflang`で日本語版と英語版を関連付け
+- `robots.txt`からルートの`sitemap.xml`を案内
+- `sitemap.xml`に公開ページと最終更新日を記載
+- トップページに研究組織の構造化データを設定
+
+新規公開時や大きな更新後は、Google Search Consoleで`https://uf-side-lab.github.io/sitemap.xml`を送信し、トップページのURL検査からインデックス登録をリクエストしてください。
 
 ## 技術構成
 
-- HTML / CSS / JavaScriptのみ
-- レスポンシブ対応
-- SEO・アクセシビリティを考慮したマークアップ
-- 外部フレームワークに依存しない軽量構成
+- HTML / CSS / JavaScript
+- 日本語・英語対応
+- レスポンシブデザイン
+- アクセシビリティとSEOを考慮した静的マークアップ
