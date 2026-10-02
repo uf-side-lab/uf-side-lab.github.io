@@ -24,6 +24,23 @@
 .achievement-entry .achievement-code{margin-bottom:.4rem;color:var(--accent);font-size:.78rem;font-weight:700;letter-spacing:.08em}
 .achievement-link{display:inline-flex;align-items:center;gap:.4rem;margin-top:.7rem;color:var(--accent);font-size:.9rem;font-weight:700}
 .achievement-legend{margin:1.4rem 0 0;color:var(--muted);font-size:.8rem;line-height:1.8}
+.achievements-page .container.prose,
+html[lang="en"] .achievements-content.container{
+  border:1px solid var(--line);
+  border-left:3px solid var(--accent);
+  background:linear-gradient(145deg,#151517,#0f0f10);
+  padding:clamp(1.25rem,3vw,2rem);
+}
+.achievements-page .container.prose>h2,
+html[lang="en"] .achievements-content.container>h2{margin:0 0 1rem}
+.achievements-page .achievement-list,
+html[lang="en"] .achievements-content .achievement-list{margin-top:0}
+.page-title+.section .news-list{
+  border:1px solid var(--line);
+  border-left:3px solid var(--accent);
+  background:linear-gradient(145deg,#151517,#0f0f10);
+  padding:clamp(.35rem,1.5vw,.8rem) clamp(1rem,2.5vw,1.5rem);
+}
 .member{border:1px solid var(--line);border-top:2px solid var(--accent);padding:1.2rem;background:linear-gradient(145deg,#151517,#0f0f10)}
 .member-theme{margin-top:1.15rem!important;padding:1rem!important;border:1px solid var(--line)!important;border-left:3px solid var(--accent)!important;background:#101012;line-height:1.7!important}
 .member-theme span{margin-bottom:.5rem!important}
