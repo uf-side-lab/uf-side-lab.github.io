@@ -8,6 +8,8 @@ https://uf-side-lab.github.io/achievements.html
 https://uf-side-lab.github.io/en/achievements.html
 https://uf-side-lab.github.io/news.html
 https://uf-side-lab.github.io/en/news.html
+https://uf-side-lab.github.io/kyoto-prize.html
+https://uf-side-lab.github.io/en/kyoto-prize.html
 https://uf-side-lab.github.io/members.html
 https://uf-side-lab.github.io/en/members.html
 https://uf-side-lab.github.io/career.html
